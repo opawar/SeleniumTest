@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20149" started-at="2018-02-07T15:48:56Z" finished-at="2018-02-07T15:49:16Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20149" started-at="2018-02-07T15:48:56Z" finished-at="2018-02-07T15:49:16Z">
+      <class name="com.selenium.test.TestClass">
+        <test-method status="PASS" signature="launchBrowserTest(java.lang.String)[pri:0, instance:com.selenium.test.TestClass@55f3ddb1]" name="launchBrowserTest" is-config="true" duration-ms="7386" started-at="2018-02-07T21:18:56Z" finished-at="2018-02-07T21:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.co.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowserTest -->
+        <test-method status="PASS" signature="enterTextTest(java.lang.String)[pri:0, instance:com.selenium.test.TestClass@55f3ddb1]" name="enterTextTest" duration-ms="188" started-at="2018-02-07T21:19:03Z" finished-at="2018-02-07T21:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium Tutorial]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTextTest -->
+        <test-method status="PASS" signature="selectListItemTest()[pri:0, instance:com.selenium.test.TestClass@55f3ddb1]" name="selectListItemTest" duration-ms="1737" started-at="2018-02-07T21:19:03Z" depends-on-methods="com.selenium.test.TestClass.enterTextTest" finished-at="2018-02-07T21:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectListItemTest -->
+        <test-method status="PASS" signature="clickOnTutorialLinkTest(java.lang.String)[pri:0, instance:com.selenium.test.TestClass@55f3ddb1]" name="clickOnTutorialLinkTest" duration-ms="9381" started-at="2018-02-07T21:19:05Z" depends-on-methods="com.selenium.test.TestClass.selectListItemTest" finished-at="2018-02-07T21:19:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free Selenium Tutorials - Guru99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnTutorialLinkTest -->
+        <test-method status="PASS" signature="validateTutorialPageTest()[pri:0, instance:com.selenium.test.TestClass@55f3ddb1]" name="validateTutorialPageTest" duration-ms="78" started-at="2018-02-07T21:19:14Z" depends-on-methods="com.selenium.test.TestClass.clickOnTutorialLinkTest" finished-at="2018-02-07T21:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTutorialPageTest -->
+        <test-method status="PASS" signature="quitBrowserTest()[pri:0, instance:com.selenium.test.TestClass@55f3ddb1]" name="quitBrowserTest" is-config="true" duration-ms="1350" started-at="2018-02-07T21:19:14Z" finished-at="2018-02-07T21:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowserTest -->
+      </class> <!-- com.selenium.test.TestClass -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

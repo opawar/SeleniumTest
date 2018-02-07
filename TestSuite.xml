@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+
+	<parameter name="appUrl" value="https://www.google.co.in/" />
+	<parameter name="searchText" value="Selenium Tutorial" />
+	<parameter name="linkText" value="Free Selenium Tutorials - Guru99" />
+
+	<test name="Test1">
+		<classes>
+	       <class name="com.selenium.test.TestClass" />
+	    </classes>
+	</test>
+  
+</suite>
