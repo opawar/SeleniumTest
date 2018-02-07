@@ -7,7 +7,7 @@
 
 	<test name="Test1">
 		<classes>
-	       <class name="com.selenium.test.TestClass" />
+	       <class name="com.selenium.test.ClassTest" />
 	    </classes>
 	</test>
   
