@@ -37,9 +37,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
-					<properties>
-						<appUrl>${env.appUrl}</appUrl>
-					</properties>
+					<systemPropertyVariables>
+						<appUrl>${appUrl}</appUrl>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 
