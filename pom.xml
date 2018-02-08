@@ -38,9 +38,10 @@
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					<properties>
+						<jenkins.appUrl>${appUrl}</jenkins.appUrl>
 						<property>
 							<name>appUrl</name>
-							<value>test</value>
+							<value>${jenkins.appUrl}</value>
 						</property>
 					</properties>
 				</configuration>
