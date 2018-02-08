@@ -34,23 +34,9 @@
 	    	<version>2.20.1</version>
 	    	<configuration>
 				<suiteXmlFiles>
-		    		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+		    		<suiteXmlFile>${suiteXmlFileee}</suiteXmlFile>
 		    	</suiteXmlFiles>
 	     	</configuration>
-	     	<!-- <executions>
-	            <execution>
-	                <phase>integration-test</phase>
-	                <goals>
-	                    <goal>test</goal>
-	                </goals>
-	                <configuration>
-	                    <skip>true</skip>
-	                    <suiteXmlFiles>
-		    				<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-		    			</suiteXmlFiles>
-	                </configuration>
-	     		</execution>
-     		</executions> -->
 		</plugin>
 		
 		<plugin>
