@@ -39,7 +39,7 @@
 					</suiteXmlFiles>
 					<properties>
 						<property>
-							<name>${appUrl}</name>
+							<name>appUrl</name>
 							<value>test</value>
 						</property>
 					</properties>
