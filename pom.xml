@@ -37,7 +37,7 @@
 		    		<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 		    	</suiteXmlFiles>
 	     	</configuration>
-	     	<executions>
+	     	<!-- <executions>
 	            <execution>
 	                <phase>integration-test</phase>
 	                <goals>
@@ -45,12 +45,12 @@
 	                </goals>
 	                <configuration>
 	                    <skip>true</skip>
-	                    <!-- <suiteXmlFiles>
+	                    <suiteXmlFiles>
 		    				<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-		    			</suiteXmlFiles> -->
+		    			</suiteXmlFiles>
 	                </configuration>
 	     		</execution>
-     		</executions>
+     		</executions> -->
 		</plugin>
 		
 		<plugin>
