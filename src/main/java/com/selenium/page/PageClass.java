@@ -14,14 +14,14 @@ public class PageClass {
 	static WebDriverWait wait;
 	static boolean flag = false;
 	
-	public static void launchBrowser(/*String appUrl*/) throws Exception{
+	public static void launchBrowser(String appUrl) throws Exception{
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized");
 		driver = new ChromeDriver(options);
 		wait = new WebDriverWait(driver, 10);
 		
-		driver.get(System.getProperty("appUrl"));
+		driver.get(appUrl);
 		System.out.println("--------Launched browser");
 		System.out.println("URL of the page is -> " + driver.getCurrentUrl());
 		Thread.sleep(2000);
