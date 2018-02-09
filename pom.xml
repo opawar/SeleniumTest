@@ -35,15 +35,14 @@
 				<version>2.20.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>TestSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					<properties>
-						<jenkins.appUrl>${appUrl}</jenkins.appUrl>
+					<systemProperties>
 						<property>
 							<name>appUrl</name>
-							<value>${jenkins.appUrl}</value>
+							<value>https://www.google.co.in/</value>
 						</property>
-					</properties>
+					</systemProperties>
 				</configuration>
 			</plugin>
 
