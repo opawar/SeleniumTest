@@ -10,9 +10,9 @@ import com.selenium.page.PageClass;
 public class TestClass {
 	
 	@BeforeClass
-	/*@Parameters({"appUrl"})*/
-	public void launchBrowserTest(/*String appUrl*/) throws Exception{
-		PageClass.launchBrowser(/*appUrl*/);
+	@Parameters({"appUrl"})
+	public void launchBrowserTest(String appUrl) throws Exception{
+		PageClass.launchBrowser(appUrl);
 	}
 	
 	@Test(alwaysRun=true)
