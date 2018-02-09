@@ -40,7 +40,7 @@
 					<systemProperties>
 						<property>
 							<name>appUrl</name>
-							<value>https://www.google.co.in/</value>
+							<value>${appUrl}</value>
 						</property>
 					</systemProperties>
 				</configuration>
