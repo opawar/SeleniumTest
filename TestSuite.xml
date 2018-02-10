@@ -4,8 +4,8 @@
 	<listener class-name="com.selenium.page.SuiteListener" />
 </listeners>
 	<parameter name="appUrl" value="https://www.youtube.com/" />
-	<parameter name="searchText" value="Selenium Tutorial" />
-	<parameter name="linkText" value="Free Selenium Tutorials - Guru99" />
+	<parameter name="searchText" value="Test" />
+	<parameter name="linkText" value="Test" />
 
 	<test name="Test1">
 		<classes>
