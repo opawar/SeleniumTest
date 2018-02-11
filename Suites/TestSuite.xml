@@ -1,15 +1,23 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite">
-<listeners>
-	<listener class-name="com.selenium.page.SuiteListener" />
-</listeners>
-	<parameter name="appUrl" value="https://www.youtube.com/" />
-	<parameter name="searchText" value="Test" />
-	<parameter name="linkText" value="Test" />
+
+	<listeners>
+		<listener class-name="com.selenium.listener.PdfListener" />
+	</listeners>
+
+	<parameter name="appUrl" value="" />
+	<parameter name="searchText" value="" />
+	<parameter name="linkText" value="" />
 
 	<test name="Test1">
 		<classes>
 	       <class name="com.selenium.test.TestClass" />
+	    </classes>
+	</test>
+	
+	<test name="Test2">
+		<classes>
+	       <class name="com.selenium.test.TestClass2" />
 	    </classes>
 	</test>
   
